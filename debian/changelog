@@ -1,3 +1,9 @@
+rust-ouroboros (0.15.3-1pexip1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Thu, 17 Nov 2022 18:37:23 +0000
+
 rust-ouroboros (0.15.3-1) unstable; urgency=medium
 
   * Team upload.

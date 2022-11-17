@@ -9,13 +9,15 @@ Build-Depends: debhelper (>= 12),
  librust-aliasable-0.1+default-dev (>= 0.1.3-~~) <!nocheck>,
  librust-ouroboros-macro-0.15+default-dev (>= 0.15.3-~~) <!nocheck>,
  librust-ouroboros-macro-0.15+std-dev (>= 0.15.3-~~) <!nocheck>
-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-Uploaders:
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+XSBC-Pexip-Original-Uploaders:
  Dylan Aïssi <daissi@debian.org>
 Standards-Version: 4.5.1
 Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/ouroboros]
 Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ouroboros
 Rules-Requires-Root: no
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ sid
 
 Package: librust-ouroboros-dev
 Architecture: any
